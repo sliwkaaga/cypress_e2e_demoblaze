@@ -18,7 +18,7 @@ describe('DemoBlaze e2e Testing', () => {
     });
   
     it('Adds a Samsung Galaxy S6 to the cart', () => {
-      cy.get('a[href="prod.html?idp_=1"]').first().click(); // Używamy .first() aby kliknąć pierwszy znaleziony link
+      cy.get('a[href="prod.html?idp_=1"]').first().click();
       cy.get('.btn-success').click();
     });
   });
